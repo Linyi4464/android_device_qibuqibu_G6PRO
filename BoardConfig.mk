@@ -75,6 +75,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-10-05
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+
 # VNDK
 BOARD_VNDK_VERSION := current
 
